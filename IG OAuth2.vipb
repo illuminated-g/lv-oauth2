@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-10-15 13:51:02" Modified_Date="2023-10-15 21:54:29" Creator="Unlikely Nomad" Comments="" ID="e90cb971b60168ce0da65a53bd1801e7">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2023-10-15 13:51:02" Modified_Date="2026-03-01 10:53:40" Creator="Unlikely Nomad" Comments="" ID="6074c26a3806592612992520773f68ed">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_OAuth2</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -18,6 +18,8 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <Additional_External_Dependencies>illuminatedg_lib_ig_http_utils &gt;=1.1.0.53</Additional_External_Dependencies>
+      <Additional_External_Dependencies>illuminatedg_lib_ig_web&amp;crypto &gt;=0.1.0.9</Additional_External_Dependencies>
+      <Additional_External_Dependencies>jdp_science_jsontext &gt;=1.9.1.125</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -36,7 +38,9 @@ Included in this package is a Google pre-defined provider and others can easily 
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-oauth2</URL>
-      <Release_Notes/>
+      <Release_Notes>1.0.1.2
+- Add missing package dependencies
+- Cleanup some JSON handling</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -378,7 +382,7 @@ Included in this package is a Google pre-defined provider and others can easily 
         <Path>Providers</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>441396172704D80D5B2F3B6F2309BC0A</GUID>
+      <GUID>107EF9F98E39E0572CA41FE58CAFE9E7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -553,7 +557,7 @@ Included in this package is a Google pre-defined provider and others can easily 
         <Path>OAuth2\Request\Create Token Request.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A681CCB9B3901A7BD406D5D89DD1894F</GUID>
+      <GUID>93CF438BD0A7C2AA95A07439972AC78E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -588,7 +592,7 @@ Included in this package is a Google pre-defined provider and others can easily 
         <Path>OAuth2\Google\Init Google OAuth.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CFF7BE33C60EC329BA8E4A98C1D2C94F</GUID>
+      <GUID>F1AE46070ADF2CA25E97E1C340BDD39E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
